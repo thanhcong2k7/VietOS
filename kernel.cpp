@@ -11,6 +11,6 @@ void printf(char* st)
 }
 extern "C" void kernelMain(const void* multiboot_structure, unsigned int /*multiboot_magic*/)
 {
-    printf("VietOS - HĐH viêt băng tay");
+    printf("VietOS - Operating System written from scratch");
     while(1);
 }
